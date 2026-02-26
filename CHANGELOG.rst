@@ -4,6 +4,14 @@ Release notes
 
 .. current developments
 
+0.1.2
+=====
+
+**Added:**
+
+* Update with the latest scikit-package standard.
+
+
 0.1.1
 =====
 
