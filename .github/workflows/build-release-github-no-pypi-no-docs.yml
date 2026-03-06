@@ -1,0 +1,14 @@
+name: Build Wheel, Release, Upload
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-release:
+    uses: scikit-package/release-scripts/.github/workflows/_build-release-github-no-pypi-no-docs.yml@v0
+    with:
+      project: scikit-package-system
+      c_extension: false
+      maintainer_github_username: sbillinge
+    secrets:
+      PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
