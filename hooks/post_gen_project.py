@@ -1,8 +1,6 @@
 def main():
     """Execute when user runs cookiecutter."""
-
-    print(
-        """
+    print("""
     Congratulations! A new Python project is created!
     Enter the directory with `cd {{cookiecutter.project_name}}`.
     Run `pip install -e .` to install the package in editable mode.
@@ -10,8 +8,7 @@ def main():
 
     For more info, please refer to the official documentation on
     Level 4 of sharing.
-    """
-    )
+    """)
 
 
 if __name__ == "__main__":
